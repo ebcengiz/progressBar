@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #E0E2F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.back-container{
+    width: 857px;
+    height: 323px;
+    border-radius: 60px;
+    background-color: #F6EDE0;
+    position: relative;
+    
+}
+
+.main-container{
+   width: 1013px; 
+   height: 257px;
+   border-radius: 70px;
+   background-color: white;
+   position: absolute;
+   padding: 72px;
+}
+
+.step-infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.step-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-number{
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #232A70;
+    margin-bottom: 8px;
+    border: 1px solid #232A70;
+}
+
+.step-number-passed{
+    background-color: #232A70;
+    color: white;
+}
+
+.step-text{
+   
+    font-size: 18px;
+    color: #232A70;
+}
+
+.step-text-passed{
+     font-weight: 600;   
+}
+
+.progress{
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    height: 12px;
+}
+
+.progress::-webkit-progress-bar{
+    background-color: #f0f0f0;
+}
+
+.progress::-webkit-progress-bar,
+.progress::-webkit-progress-value{
+    border-radius: 10px;
+}
+
+.progress::-moz-progress-bar{
+    border-radius: 10px;
+}
+
+.progress::-webkit-progress-value{
+    background-color: #232A70;
+}
